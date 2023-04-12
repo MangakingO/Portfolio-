@@ -93,3 +93,7 @@ footer a:hover {
   height: 50px;
   width: 50px;
 }
+.box {
+  border: 2px solid #ccc;
+  padding: 10px;
+}
