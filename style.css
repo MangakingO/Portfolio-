@@ -1,77 +1,58 @@
-/* Reset default styles */
-body, h1, h2, h3, p, ul, li {
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Set background color and text color */
-body {
-  background-color: #121212;
-  color: #ffffff;
-  font-family: Arial, sans-serif;
-}
-
-/* Header styles */
+/* Header Styles */
 header {
-  background-color: #1e1e1e;
-  padding: 20px;
+  background-color: #333;
+  color: #fff;
   text-align: center;
+  padding: 1rem 0;
 }
 
-header h1 {
-  margin-bottom: 10px;
-  font-size: 2.5rem;
-}
-
-/* Main content styles */
+/* Main Content Styles */
 main {
-  padding: 20px;
+  padding: 2rem;
 }
 
-/* Section styles */
-section {
-  margin-bottom: 30px;
-}
-
-/* Project styles */
+/* Project Styles */
 .project {
-  background-color: #1e1e1e;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 .project h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  margin: 0;
 }
 
-/* Footer styles */
+/* Footer Styles */
 footer {
-  background-color: #1e1e1e;
-  padding: 20px;
+  background-color: #333;
+  color: #fff;
   text-align: center;
+  padding: 1rem 0;
 }
 
-footer p {
-  margin-bottom: 10px;
-  font-size: 1.2rem;
-}
-
-/* Social media icon styles */
-ul {
+/* Footer Links Styles */
+footer ul {
   list-style: none;
-  display: flex;
-  justify-content: center;
+  padding: 0;
 }
 
-li {
-  margin: 0 20px;
+footer li {
+  display: inline-block;
+  margin-right: 1rem;
 }
 
-/* LinkedIn, GitHub, and Email icon styles */
-.linkedinimg, .githubimg, .emailimg {
-  width: 30px;
-  height: 30px;
-  filter: invert(1);
+/* Small Icons Styles */
+.linkedinimg,
+.githubimg,
+.emailimg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
 }
