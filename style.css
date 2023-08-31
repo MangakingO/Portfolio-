@@ -37,6 +37,8 @@ footer {
   padding: 1rem 0;
 }
 
+/* ... Previous CSS styles ... */
+
 /* Footer Links Styles */
 footer ul {
   list-style: none;
@@ -49,10 +51,11 @@ footer li {
 }
 
 /* Small Icons Styles */
-.linkedinimg,
-.githubimg,
-.emailimg {
+.social-icon {
   width: 20px;
   height: 20px;
   vertical-align: middle;
 }
+
+/* ... Rest of the CSS ... */
+
