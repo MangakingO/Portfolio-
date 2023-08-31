@@ -1,99 +1,77 @@
-body {
-  font-family: Arial, sans-serif;
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
   margin: 0;
-  text-align: center;
-  background-color: #e8f1f8;
+  padding: 0;
 }
 
+/* Set background color and text color */
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
 header {
-  background: #333;
-  color: #fff;
-  padding: 1em;
-  border-bottom: 2px solid #ccc;
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
 }
 
 header h1 {
-  margin: 0;
-  font-size: 2em;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
 }
 
-header h2 {
-  margin: 0;
-  font-size: 1.5em;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-right: 1em;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
+/* Main content styles */
 main {
-  padding: 1em;
+  padding: 20px;
 }
 
+/* Section styles */
 section {
-  margin-bottom: 2em;
+  margin-bottom: 30px;
 }
 
-h3 {
-  font-size: 1.2em;
+/* Project styles */
+.project {
+  background-color: #1e1e1e;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
 
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
 footer {
-  background: #333;
-  color: #fff;
-  padding: 1em;
+  background-color: #1e1e1e;
+  padding: 20px;
   text-align: center;
-  border-top: 2px solid #ccc;
 }
 
-footer ul {
-  margin: 0;
-  padding: 0;
+footer p {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* Social media icon styles */
+ul {
   list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
-footer li {
-  display: inline-block;
-  margin-right: 1em;
+li {
+  margin: 0 20px;
 }
 
-footer a {
-  color: #fff;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-.linkedinimg {
-  height: 50px;
-  width: 50px;
-}
-.githubimg {
-  height: 50px;
-  width: 50px;
-}
-.emailimg {
-  height: 50px;
-  width: 50px;
-}
-.box {
-  border: 2px solid #ccc;
-  padding: 10px;
+/* LinkedIn, GitHub, and Email icon styles */
+.linkedinimg, .githubimg, .emailimg {
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
 }
